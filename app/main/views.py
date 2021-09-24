@@ -124,3 +124,16 @@ def subscribe():
     flash('Sucessfuly subscribed')
     return redirect(url_for('main.index'))
 
+
+
+@main.route('/blog/<blog_id>/delete', methods = ['POST'])
+@login_required
+def delete_post(blog_id):
+    blog = Blog.query.get(blog_id)
+    if blog.user != current_user:
+        abort(403)
+    blog.delete()
+    flash("You have deleted your Blog succesfully!")
+    return redirect(url_for('main.index'))
+
+
