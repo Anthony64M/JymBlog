@@ -23,3 +23,8 @@ class UpdateProfile(FlaskForm):
             if User.query.filter_by(username = username.data).first():
                 raise ValidationError("Sorry username assigned to another user")
 
+
+class CreateBlog(FlaskForm):
+    title = StringField('Title',validators=[Required()])
+    content = TextAreaField('Blog Content',validators=[Required()])
+    submit = SubmitField('Post')
