@@ -10,6 +10,14 @@ This  is a flask application that allows writers to post blogs, edit and delite 
 ## Live Link
 [View Site](https://jymalblog.herokuapp.com/)
 
+## Screenshots
+
+<img src="https://raw.githubusercontent.com/Anthony64M/JymBlog/master/app/static/photos/homepage.png" width="900px" height="440px">
+<img src="https://raw.githubusercontent.com/Anthony64M/JymBlog/master/app/static/photos/profile.png" width="900px" height="440px">
+<img src="https://raw.githubusercontent.com/Anthony64M/JymBlog/master/app/static/photos/comment.png" width="900px" height="440px">
+
+
+
 ## User Story
 
 * A user can view the most recent posts.
