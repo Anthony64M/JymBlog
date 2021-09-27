@@ -15,7 +15,7 @@ This  is a flask application that allows writers to post blogs, edit and delite 
 <img src="https://raw.githubusercontent.com/Anthony64M/JymBlog/master/app/static/photos/homepage.png" width="900px" height="440px">
 <img src="https://raw.githubusercontent.com/Anthony64M/JymBlog/master/app/static/photos/profile.png" width="900px" height="440px">
 <img src="https://raw.githubusercontent.com/Anthony64M/JymBlog/master/app/static/photos/comment.png" width="900px" height="440px">
-<img src="https://raw.githubusercontent.com/Anthony64M/JymBlog/master/app/static/photos/phone.png" width="900px" height="440px">
+<img src="https://raw.githubusercontent.com/Anthony64M/JymBlog/master/app/static/photos/phone.png" width="500px" height="200px">
 
 
 
